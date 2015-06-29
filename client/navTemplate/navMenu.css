@@ -1,0 +1,30 @@
+.navbar-default {
+ margin-top: 8px;
+margin-bottom: 8px;
+background-color: white;
+border-color: white;
+padding-left: 60px;
+padding-right: 60px;
+}
+
+#logo {
+  width: 105px;
+  height: auto;
+  margin-right: 20px;
+}
+
+img {
+  max-width: 100%;
+  width: auto\9;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+.navbar-nav a {
+  font-family: "Nunito", sans-serif;
+  color: rgb(84, 173, 40) !important;
+  font-size: 18px;
+  font-weight: 700;
+}
