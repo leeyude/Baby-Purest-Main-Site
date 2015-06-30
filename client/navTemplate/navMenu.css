@@ -1,30 +1,64 @@
+@media screen and (min-width: 1200px) {  /* -- If the view port is more than 1200px wide (portrait on phone) then display the following styles -- */
+  .container-fluid {
+    width: 1180px;
+  }
+}
+
+@media screen and (max-width: 845px) {  /* -- If the view port is less than 845px wide (portrait on phone) then display the following styles -- */
+  img {
+    margin-left: 20px;
+  }
+}
+
 .navbar-default {
- margin-top: 8px;
-margin-bottom: 8px;
-background-color: white;
-border-color: white;
-padding-left: 60px;
-padding-right: 60px;
+padding-top: 8px;
+padding-bottom: 8px;
+background-color: #ffffff;
+border-color: #ffffff;
 }
 
 #logo {
   width: 105px;
   height: auto;
   margin-right: 20px;
-}
-
-img {
-  max-width: 100%;
-  width: auto\9;
-  height: auto;
-  vertical-align: middle;
-  border: 0;
-  -ms-interpolation-mode: bicubic;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .navbar-nav a {
-  font-family: "Nunito", sans-serif;
+  font-family: "Gentium Book Basic", sans-serif;
   color: rgb(84, 173, 40) !important;
   font-size: 18px;
   font-weight: 700;
+  margin-top: 14px;
+}
+
+#main-header {
+  font-family: "Gentium Book Basic", sans-serif;
+  background: #fff;
+  min-height: 65px;
+  position: fixed;
+  z-index: 510;
+  min-width: 965px;
+  width: 100%;
+}
+
+.navbar {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: white;
+}
+
+.menu-holder {
+  float: left;
+}
+
+.menu {
+  left: 0px;
+  top: 0px;
+  margin-left: 20px;
 }
