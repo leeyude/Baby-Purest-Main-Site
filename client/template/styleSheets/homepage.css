@@ -54,43 +54,6 @@ img {
   font-weight: 700;
 }
 
-#main-hero h3.test1 {
-  font-family: "Belgrano", sans-serif;
-}
-
-#main-hero h3.test2 {
-  font-family: 'Signika Negative', sans-serif;
-}
-#main-hero h3.test3 {
-  font-family: "Nunito", sans-serif;
-}
-#main-hero h3.test4 {
-  font-family: "Overlock", sans-serif;
-}
-#main-hero h3.test5 {
-
-}
-
-#main-hero h3.test6 {
-  font-family: "Alegreya", sans-serif;
-}
-#main-hero h3.test7 {
-  font-family: "Arapey", sans-serif;
-}
-#main-hero h3.test8 {
-  font-family: "Arbutus Slab", sans-serif;
-}
-#main-hero h3.test9 {
-  font-family: "Capriola", sans-serif;
-}
-#main-hero h3.test10 {
-  font-family: "Quando", sans-serif;
-}
-
-
-
-
-
 #main-hero p {
   font-family: "Quando", sans-serif;
   font-weight: 400;
@@ -101,10 +64,9 @@ img {
   color: rgb(84, 173, 40);
 }
 
-#main-hero #main_join_now {
+#main-hero #main_join_now, #closing #main_join_now {
   font-family: "Gentium Book Basic", sans-serif;
   font-weight: 600;
-  position: relative;
   font-size: 20px;
   margin-bottom: 7px;
   margin-top: 27px;
@@ -112,10 +74,10 @@ img {
   text-align: center;
   padding: 10px 30px 12px 30px;
   border-radius: 15px;
-  position: relative;
+  position:inherit;
 }
 
-#main-hero #main_join_now h5 {
+#main-hero #main_join_now h5, #closing #main_join_now h5{
   font-family: "Gentium Book Basic", sans-serif;
   font-size: 42px;
   color: white;
@@ -131,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Gentium Book Basic", sans-serif;
 }
 
-#main-hero #main_join_now span {
+#main-hero #main_join_now span, #closing #main_join_now span{
   font-size: 14px;
   color: rgb(188, 205, 171);
   letter-spacing: .01em;
@@ -194,7 +156,7 @@ background-image: -o-linear-gradient(#777a99, #424673, #2f3567);
 
 body a.btn:hover, body a.btn:focus {
   background-color: rgb(43, 96, 0);
-  color: white;
+  color: white!important;
 }
 
 .btn:hover, .btn:focus {
@@ -258,64 +220,12 @@ body a.btn:hover, body a.btn:focus {
   letter-spacing: 0;
 }
 
-/*Here starts the third main section where description is at the right hand side*/
-#main-section-right {
-  background: #ffffff url("") repeat center bottom;
-  height: 520px;
-  background-position: center;
-  background-size: cover;
-  background-position: left center;
-  color: rgb(84, 173, 40);
-}
-
-#main-section-right .content {
-  position: relative;
-  z-index: 100;
-  padding: 71px 0 30px 0;
-  margin-left: 80px;
-  width: 480px;
-  float: right;
-}
-
-#main-section-right h3 {
-  margin-bottom: 7px;
-  padding-bottom: 0px;
-  font-size: 54px;
-  line-height: .9em;
-  font-family: "Nunito", sans-serif;
-  font-weight: 700;
-}
-
-#main-section-right p {
-  font-family: "Belgrano", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-  line-height: 1.5em;
-  font-size: 17px;
-  padding-top: 10px;
-  color: rgb(84, 173, 40);
-}
-
-#main-section-right .get-started {
-  margin-top: 12px;
-  display: inline-block;
-}
-
-#main-section-right .btn {
-  padding: 10px 15px;
-  border-radius: 6px;
-  position: relative;
-  font-size: 14px;
-  letter-spacing: 0;
-}
-
-
 /*Here starts the Footer */
 
 .footer-main {
   height: 70px;
   line-height: 70px;
-  font-family: "Belgrano", sans-serif;
+  font-family: "Gentium Book Basic", sans-serif;
   font-weight: 400;
   font-stretch: normal;
   background: rgb(84, 173, 40);
@@ -345,7 +255,7 @@ body a.btn:hover, body a.btn:focus {
 
 .nav > li > a:hover, .nav > li > a:focus {
   color: white;
-  background-color: rgb(84, 173, 40);
+  background-color: rgb(43, 96, 0);
   text-decoration: underline;
 }
 
@@ -361,4 +271,321 @@ body a.btn:hover, body a.btn:focus {
 .footer-logo{
  float:right;
  padding-left: 18px;
+}
+
+body a.btn, .btn {
+  text-shadow: none;
+  background-image: linear-gradient(rgb(85, 133, 53),rgb(63, 123, 31),rgb(43, 103, 2));
+  behavior: url(/assets/PIE.htc);
+  position: relative;
+  border: 1px solid rgb(86, 119, 68);
+  border-bottom: 1px solid rgb(63, 123, 31);
+  text-align: center;
+  border-radius: 3px;
+  text-decoration: none;
+  color: white!important;
+}
+
+body a.btn:hover, body a.btn:focus {
+  background-color: rgb(43, 96, 0);
+  color: white;
+}
+
+.btn:hover, .btn:focus {
+  color: #333333;
+  text-decoration: none;
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+  -moz-transition: background-position 0.1s linear;
+  -o-transition: background-position 0.1s linear;
+  transition: background-position 0.1s linear;
+}
+
+#web-user a, #web-user a:link, #web-user a:visited, .mobile-portal a, .mobile-portal a:link, .mobile-portal a:visited {
+  font-weight: 900;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  vertical-align: middle;
+  letter-spacing: 0px;
+  font-family: Signika;
+}
+
+#OrganicIngredient {
+  background: #ffffff url("/pear-temp.jpg") repeat center bottom;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  position: center;
+  text-align: center;
+}
+
+.colorBackground {
+    padding-bottom: 50px;
+}
+
+.colorBackground h4 {
+    font-family: "Gentium Book Basic", sans-serif;
+    color: white;
+    font-size: 40px;
+    margin-top: 65px;
+}
+
+.colorBackground p {
+    font-family: "Overlock", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.5em;
+    font-size: 17px;
+    padding-top: 10px;
+    color: white;
+}
+
+.get-started {
+  margin-top: 12px;
+  display: inline-block;
+}
+
+#OrganicIngredient .btn {
+  padding: 10px 15px;
+  border-radius: 6px;
+  position: inherit;
+  font-size: 14px;
+  letter-spacing: 0;
+}
+
+#center-section h3 {
+  margin-bottom: 7px;
+  padding-bottom: 0px;
+  font-size: 60px;
+  line-height: 1.1em;
+  font-family: "Gentium Book Basic", sans-serif;
+  font-weight: 700;
+}
+
+#noAdditives {
+  background: #ffffff repeat center bottom;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+
+.noAdditives {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.noAdditives p {
+  font-family: "Overlock", sans-serif;
+  font-weight: bolder;
+  font-style: italic;
+  line-height: 1.5em;
+  font-size: 17px;
+  padding-top: 10px;
+  color: rgb(84, 173, 40);
+}
+
+.text-photo {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+
+}
+
+#standard-section {
+  background: #ffffff repeat center bottom;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  position: center;
+  text-align: center;
+}
+
+#standard-section h4 {
+  font-family: "Gentium Book Basic", sans-serif;
+  color: rgb(84, 173, 40);
+  font-size: 40px;
+  text-align: center;
+}
+
+#standard-section p {
+    font-family: "Overlock", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.5em;
+    font-size: 17px;
+    padding-top: 10px;
+    color: rgb(84, 173, 40);
+    text-align: center;
+}
+
+#standard-section .btn {
+  padding: 10px 15px;
+  border-radius: 6px;
+  position: inherit;
+  font-size: 14px;
+  letter-spacing: 0;
+}
+
+#stage {
+  background: #ffffff repeat center bottom;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  position: center;
+  text-align: center;
+}
+
+#stage {
+
+  text-align: center;
+
+}
+
+.stage {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  height: auto;
+}
+
+#stage h3 {
+  font-family: "Gentium Book Basic", sans-serif;
+  color: rgb(84, 173, 40);
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+#stage h4 {
+  font-family: "Gentium Book Basic", sans-serif;
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+#stage img {
+  margin-bottom: 12px;
+}
+
+#stage p {
+  font-family: "Overlock", sans-serif;
+  font-weight: 400;
+  line-height: 1.5em;
+  font-size: 16px;
+  padding-top: 10px;
+  color: rgb(84, 173, 40);
+  text-align: center;
+}
+
+.stage1 {
+  height: 450px;
+  border-style: ridge;
+  border-color: rgb(37, 234, 246);
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.stage2 {
+  height: 450px;
+  border-style: ridge;
+  border-color: rgb(205, 29, 193);
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.stage3 {
+  height: 450px;
+  border-style: ridge;
+  border-color: rgb(241, 159, 18);
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.stage1 h4 {
+  border-style: groove;
+  border-color: rgb(37, 234, 246);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: rgb(37, 234, 246);
+  border-radius: 15px;
+}
+
+.stage1 h5 {
+  color: rgb(16, 124, 130);
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.stage2 h4 {
+  border-style: groove;
+  border-color: rgb(205, 29, 193);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: rgb(205, 29, 193);
+  border-radius: 15px;
+}
+
+.stage2 h5 {
+  color: rgb(148, 18, 139);
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.stage3 h4 {
+  border-style: groove;
+  border-color: rgb(241, 159, 18);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: rgb(241, 159, 18);
+  border-radius: 15px;
+}
+
+.stage3 h5 {
+  color: rgb(153, 103, 17);
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+#closing {
+  background: #ffffff url("") repeat center bottom;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  position: center;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#closing h4 {
+    font-family: "Gentium Book Basic", sans-serif;
+    color: rgb(84, 173, 40);
+    font-size: 40px;
+    margin-top: 65px;
+}
+
+#closing p {
+    font-family: "Overlock", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.5em;
+    font-size: 17px;
+    padding-top: 10px;
+    color: rgb(84, 173, 40);
 }

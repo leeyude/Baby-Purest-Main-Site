@@ -62,3 +62,19 @@ border-color: #ffffff;
   top: 0px;
   margin-left: 20px;
 }
+
+.sign-up {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  float: right;
+  font-family: "Gentium Book Basic", sans-serif;
+  color: rgb(84, 173, 40);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+a.sign-up:hover{
+  background-color: rgb(39, 85, 1)!important;
+}
