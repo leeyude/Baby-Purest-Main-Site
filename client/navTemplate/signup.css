@@ -1,0 +1,29 @@
+.signupFlow {
+  width: 600px;
+  margin: 8px auto 0;
+  font-size: 14px;
+  text-align: center;
+}
+
+.connectingLine {
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: rgba(84, 173, 40, 0.68);
+  margin-top: 20px;
+  display: block;
+}
+
+.signupFlowStep {
+  margin-top: 6px;
+}
+
+.signupFlowIcon {
+  margin-bottom: 6px;
+}
+
+.signupFlowText {
+  font-family: "Gentium Book Basic", sans-serif;
+  color: rgb(84, 173, 40) !important;
+  font-size: 13px;
+  font-weight: 700;
+}
