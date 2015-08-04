@@ -1,0 +1,38 @@
+#howItWorks.title {
+  background: #ffffff url(/howItWorks.jpg) repeat;
+  height: auto;
+  background-position: 30% 75%;
+  background-size: cover;
+  position: center;
+  text-align: center;
+  padding-top: 120px;
+}
+
+#howItWorks h4 {
+  font-family: "Gentium Book Basic", sans-serif;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  line-height: 1.25em;
+}
+
+#howItWorks p {
+    font-family: "Overlock", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.5em;
+    font-size: 26px;
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#howItWorks .btn {
+  padding: 10px 15px;
+  border-radius: 6px;
+  position: inherit;
+  font-size: 14px;
+  letter-spacing: 0;
+  margin-bottom: 45px;
+}

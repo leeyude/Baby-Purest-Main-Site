@@ -33,4 +33,21 @@ if (Meteor.isClient) {
     this.render('signup');
   });
 
+  Router.route('/zipNotCovered', function () {
+    this.render('zipNotCovered');
+  });
+
+  Router.route('/profile', function () {
+    this.render('profile');
+  });
+
+  Router.route('/themagicofbabypurest', function () {
+    this.render('themagicofbabypurest');
+  });
+
+  Router.route('/about', function () {
+    this.render('about');
+  });
+
+
 }

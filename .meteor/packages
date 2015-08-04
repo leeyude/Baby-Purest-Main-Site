@@ -12,3 +12,4 @@ iron:router
 jquery
 accounts-password
 useraccounts:core
+rajit:bootstrap3-datepicker

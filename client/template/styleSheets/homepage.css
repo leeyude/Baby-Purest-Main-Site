@@ -2,12 +2,13 @@
 
 #main-hero {
   background: #fafafc url("LandingPage.png") repeat center bottom;
-  height: 540px;
+  height: 660px;
   background-position: center;
   background-size: cover;
   background-position: left center;
   border-bottom: 4px solid rgb(84, 173, 40);
   color: rgb(84, 173, 40);
+  position: relative;
 }
 
 .HeroIconHolder {
@@ -41,7 +42,7 @@ img {
 #main-hero .content {
   width: 480px;
   float: right;
-  padding: 120px 0px 0px 0px;
+  padding: 150px 0px 0px 0px;
   text-align: center;
 }
 
@@ -312,11 +313,11 @@ body a.btn:hover, body a.btn:focus {
 }
 
 #OrganicIngredient {
-  background: #ffffff url("/pear-temp.jpg") repeat center bottom;
+  background: #ffffff url("/pears.jpg");
   height: auto;
-  background-position: center;
+  background-position: center left;
   background-size: cover;
-  position: center;
+  position: relative;
   text-align: center;
 }
 
@@ -328,7 +329,8 @@ body a.btn:hover, body a.btn:focus {
     font-family: "Gentium Book Basic", sans-serif;
     color: white;
     font-size: 40px;
-    margin-top: 65px;
+    margin-top: 100px;
+        line-height: 1.25em;
 }
 
 .colorBackground p {
@@ -337,6 +339,7 @@ body a.btn:hover, body a.btn:focus {
     font-style: italic;
     line-height: 1.5em;
     font-size: 17px;
+    margin-bottom: 30px;
     padding-top: 10px;
     color: white;
 }
@@ -344,6 +347,7 @@ body a.btn:hover, body a.btn:focus {
 .get-started {
   margin-top: 12px;
   display: inline-block;
+  margin-bottom: 30px;
 }
 
 #OrganicIngredient .btn {
@@ -358,7 +362,7 @@ body a.btn:hover, body a.btn:focus {
   margin-bottom: 7px;
   padding-bottom: 0px;
   font-size: 60px;
-  line-height: 1.1em;
+  line-height: 1.25em;
   font-family: "Gentium Book Basic", sans-serif;
   font-weight: 700;
 }
@@ -367,13 +371,19 @@ body a.btn:hover, body a.btn:focus {
   background: #ffffff repeat center bottom;
   height: auto;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   position: relative;
   text-align: center;
+
+}
+
+#noAdditives {
+    border-bottom: 4px solid rgb(84, 173, 40);
+    padding-bottom: 40px;
 }
 
 .noAdditives {
-  margin-top: 40px;
+  margin-top: 50px;
   margin-bottom: 30px;
   position: relative;
 }
@@ -409,6 +419,7 @@ body a.btn:hover, body a.btn:focus {
   color: rgb(84, 173, 40);
   font-size: 40px;
   text-align: center;
+  line-height: 1.25em;
 }
 
 #standard-section p {
@@ -428,6 +439,72 @@ body a.btn:hover, body a.btn:focus {
   position: inherit;
   font-size: 14px;
   letter-spacing: 0;
+  margin-bottom: 45px;
+}
+
+#standard-section.allergyConcious {
+  background: #ffffff url("/apples.jpg") no-repeat;
+  background-position: right center;
+  background-size: cover;
+}
+
+#standard-section.allergyConcious h4 {
+  font-family: "Gentium Book Basic", sans-serif;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  line-height: 1.25em
+}
+
+#standard-section.allergyConcious p {
+    font-family: "Overlock", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.5em;
+    font-size: 17px;
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+
+#standard-section.sustainable {
+  background: #ffffff url("/sustainable.jpg") no-repeat;
+  background-position: left center;
+  background-size: cover;
+}
+
+#standard-section.sustainable h4 {
+  font-family: "Gentium Book Basic", sans-serif;
+  color: white;
+  font-size: 40px;
+  margin-top: 75px;
+  text-align: center;
+  line-height: 1.25em
+}
+
+#standard-section.sustainable p {
+  font-family: "Overlock", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.5em;
+  font-size: 17px;
+  padding-top: 10px;
+  color: white;
+  text-align: center;
+}
+
+#standard-section.gruntWork {
+  background: #ffffff url("/gruntWork.jpg") no-repeat;
+  background-position: 0% 5%;
+  background-size: cover;
+}
+
+#standard-section.gruntWork h4 {
+  margin-top: 50px;
+}
+#standard-section.gruntWork .get-started {
+  margin-bottom: 90px;
 }
 
 #stage {
@@ -564,9 +641,9 @@ body a.btn:hover, body a.btn:focus {
 }
 
 #closing {
-  background: #ffffff url("") repeat center bottom;
+  background: #ffffff url("share.jpg") repeat;
   height: auto;
-  background-position: center;
+  background-position: center center;
   background-size: cover;
   position: center;
   text-align: center;
@@ -575,7 +652,7 @@ body a.btn:hover, body a.btn:focus {
 
 #closing h4 {
     font-family: "Gentium Book Basic", sans-serif;
-    color: rgb(84, 173, 40);
+    color: white;
     font-size: 40px;
     margin-top: 65px;
 }
@@ -587,5 +664,5 @@ body a.btn:hover, body a.btn:focus {
     line-height: 1.5em;
     font-size: 17px;
     padding-top: 10px;
-    color: rgb(84, 173, 40);
+    color: white;
 }
