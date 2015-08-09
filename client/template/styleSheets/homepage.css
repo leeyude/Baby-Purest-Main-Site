@@ -367,35 +367,21 @@ body a.btn:hover, body a.btn:focus {
   font-weight: 700;
 }
 
-#noAdditives {
-  background: #ffffff repeat center bottom;
-  height: auto;
-  background-position: center;
-  background-size: contain;
-  position: relative;
-  text-align: center;
-
-}
-
-#noAdditives {
-    border-bottom: 4px solid rgb(84, 173, 40);
-    padding-bottom: 40px;
-}
 
 .noAdditives {
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 30px;
   position: relative;
 }
 
 .noAdditives p {
   font-family: "Overlock", sans-serif;
-  font-weight: bolder;
+  font-weight: 400;
   font-style: italic;
   line-height: 1.5em;
   font-size: 17px;
   padding-top: 10px;
-  color: rgb(84, 173, 40);
+  color: white  ;
 }
 
 .text-photo {
