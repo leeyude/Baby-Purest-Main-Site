@@ -6,7 +6,7 @@
   background-position: center;
   background-size: cover;
   background-position: left center;
-  border-bottom: 4px solid rgb(84, 173, 40);
+  border-bottom: 2px solid rgb(84, 173, 40);
   color: rgb(84, 173, 40);
   position: relative;
 }
@@ -429,14 +429,14 @@ body a.btn:hover, body a.btn:focus {
 }
 
 #standard-section.allergyConcious {
-  background: #ffffff url("/apples.jpg") no-repeat;
+  background: #ffffff url("/allergyConcious.jpg") no-repeat;
   background-position: right center;
   background-size: cover;
 }
 
 #standard-section.allergyConcious h4 {
   font-family: "Gentium Book Basic", sans-serif;
-  color: white;
+  color: rgb(84, 173, 40);
   font-size: 40px;
   text-align: center;
   line-height: 1.25em;
@@ -449,7 +449,7 @@ body a.btn:hover, body a.btn:focus {
     line-height: 1.5em;
     font-size: 17px;
     padding-top: 10px;
-    color: white;
+    color: rgb(84, 173, 40);
     text-align: center;
 }
 
@@ -487,8 +487,14 @@ body a.btn:hover, body a.btn:focus {
 }
 
 #standard-section.gruntWork h4 {
+  color: white;
   margin-top: 50px;
 }
+
+#standard-section.gruntWork p {
+  color: white;
+}
+
 #standard-section.gruntWork .get-started {
   margin-bottom: 90px;
 }
@@ -546,7 +552,7 @@ body a.btn:hover, body a.btn:focus {
 }
 
 .stage1 {
-  height: 450px;
+
   border-style: ridge;
   border-color: rgb(37, 234, 246);
   padding-left: 7px;
@@ -556,7 +562,6 @@ body a.btn:hover, body a.btn:focus {
 }
 
 .stage2 {
-  height: 450px;
   border-style: ridge;
   border-color: rgb(205, 29, 193);
   padding-left: 7px;
@@ -566,7 +571,6 @@ body a.btn:hover, body a.btn:focus {
 }
 
 .stage3 {
-  height: 450px;
   border-style: ridge;
   border-color: rgb(241, 159, 18);
   padding-left: 7px;
