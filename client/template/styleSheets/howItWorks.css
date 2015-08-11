@@ -1,5 +1,5 @@
 #howItWorks.title {
-  background: #ffffff url(/howItWorks.jpg) repeat;
+  background: #ffffff url(/howItWorks.jpg);
   height: auto;
   background-position: 30% 75%;
   background-size: cover;
@@ -170,10 +170,10 @@
 
 
 #standard-section.healthyRecipies {
-  background: #ffffff url("/") no-repeat;
-  background-position: right center;
-  background-size: cover;
-      border-bottom: 4px solid rgb(84, 173, 40);
+  background: #ffffff url("/happyTummie.jpg") no-repeat;
+  background-position: 90% 100%;
+  background-size: contain;
+  border-bottom: 4px solid rgb(84, 173, 40);
 }
 
 #standard-section.healthyRecipies h4 {
@@ -193,6 +193,10 @@
     padding-top: 10px;
     color: rgb(84, 173, 40);
     text-align: center;
+}
+
+.ourPromise {
+  background: rgb(240, 255, 233);
 }
 
 .promiseHeader {
@@ -220,7 +224,7 @@
 }
 
 .promiseOrganic {
-  background-image: url(/promiseOrganic.jpg);
+  background-image: url(/promiseorganic.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }
