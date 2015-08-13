@@ -385,8 +385,8 @@ body a.btn:hover, body a.btn:focus {
 }
 
 .text-photo {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 90px;
+  padding-bottom: 90px;
   text-align: center;
 
 }
@@ -425,7 +425,7 @@ body a.btn:hover, body a.btn:focus {
   position: inherit;
   font-size: 14px;
   letter-spacing: 0;
-  margin-bottom: 45px;
+  margin-bottom: 90px;
 }
 
 #standard-section.allergyConcious {

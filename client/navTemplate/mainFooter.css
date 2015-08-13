@@ -13,7 +13,7 @@
 
 #mainFooter {
   background-color: rgb(84, 173, 40);
-  color: white;
+  color: white!important;
 }
 
 #mainFooter .col-sm-2 {
@@ -39,4 +39,8 @@
   margin-bottom: 8px;
   height: auto;
   text-align: center;
+}
+
+#mainFooter a {
+  color: white;
 }

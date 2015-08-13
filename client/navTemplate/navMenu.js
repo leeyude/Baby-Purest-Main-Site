@@ -41,13 +41,16 @@ if (Meteor.isClient) {
     this.render('profile');
   });
 
-  Router.route('/themagicofbabypurest', function () {
-    this.render('themagicofbabypurest');
-  });
-
   Router.route('/about', function () {
     this.render('about');
   });
 
+  Router.route('/workstation/themagicofbabypurest', function () {
+    this.render('themagicofbabypurest');
+  });
+
+  Router.route('/workstation/ingredients', function () {
+    this.render('ingredients');
+  });
 
 }

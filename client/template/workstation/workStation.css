@@ -1,0 +1,20 @@
+#workStationNav a{
+  text-align: center;
+}
+
+#Station-ingredient h1{
+  width: 270px;
+  float: left;
+  margin-top: 0;
+}
+
+#Station-ingredient {
+  padding-top: 40px;
+}
+
+
+
+#Station-ingredient .btn{
+  background-color: rgb(43, 96, 0);
+  color: white!important;
+}

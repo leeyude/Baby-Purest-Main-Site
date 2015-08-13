@@ -2,11 +2,12 @@
   // Server authentication info
   "servers": [
     {
-      "host": "54.186.90.63",
+      "host": "54.148.60.244",
       "username": "ubuntu",
-//      "password": "password"
+      //      "password": "password",
       // or pem file (ssh based authentication)
-      "pem": "/Users/leeyude/Google Drive/Baby Food Business/Website Design/amazon/babypurest.pem"
+      "pem": "/Users/leeyude/Google Drive/Baby Food Business/Website Design/amazon/babypurest.pem",
+      "sshOptions": { "port" : 22 }
     }
   ],
 
@@ -34,10 +35,12 @@
 
   // Configure environment
   "env": {
-    "ROOT_URL": "http://ec2-54-186-90-63.us-west-2.compute.amazonaws.com"
+
+    "ROOT_URL": "http://ec2-54-148-60-244.us-west-2.compute.amazonaws.com",
+    "port":80
   },
 
   // Meteor Up checks if the app comes online just after the deployment
   // before mup checks that, it will wait for no. of seconds configured below
-  "deployCheckWaitTime": 15
+  "deployCheckWaitTime": 30
 }
