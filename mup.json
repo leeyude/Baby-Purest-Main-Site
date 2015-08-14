@@ -2,7 +2,7 @@
   // Server authentication info
   "servers": [
     {
-      "host": "54.148.60.244",
+      "host": "54.187.194.197",
       "username": "ubuntu",
       //      "password": "password",
       // or pem file (ssh based authentication)
@@ -36,7 +36,7 @@
   // Configure environment
   "env": {
 
-    "ROOT_URL": "http://ec2-54-148-60-244.us-west-2.compute.amazonaws.com",
+    "ROOT_URL": "http://ec2-54-187-194-197.us-west-2.compute.amazonaws.com",
     "port":80
   },
 

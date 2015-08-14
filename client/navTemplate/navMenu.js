@@ -53,4 +53,17 @@ if (Meteor.isClient) {
     this.render('ingredients');
   });
 
+  Router.route('/workstation/recipe', function () {
+    this.render('recipe');
+  });
+
+  Router.route('/workstation/menuCalendar', function () {
+    this.render('menuCalendar');
+  });
+
+  Router.route('/workstation/userManagement', function () {
+    this.render('userManagement');
+  });
+
+
 }
