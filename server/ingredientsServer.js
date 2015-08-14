@@ -6,6 +6,8 @@ if (Meteor.isServer) {
   Meteor.methods({
     saveIngredients: function(itemName, itemType, stage, nowUsing, nutrition, allergenType, ingreId){
         if(ingreId){
+          var newDate= new Date();
+          var currentDate = moment(newDate).format('ll');
           IngredientCollects.update({_id:ingreId}, {$set:{
             itemName: itemName,
             itemType: itemType,
@@ -13,10 +15,12 @@ if (Meteor.isServer) {
             nowUsing: nowUsing,
             nutrition: nutrition,
             allergenType: allergenType,
-            updateAt: new Date()
+            updateAt: currentDate
           }});
           console.log(ingreId);
         } else {
+          var newDate= new Date();
+          var currentDate = moment(newDate).format('ll');
           IngredientCollects.insert({
             itemName: itemName,
             itemType: itemType,
@@ -24,8 +28,8 @@ if (Meteor.isServer) {
             nowUsing: nowUsing,
             nutrition: nutrition,
             allergenType: allergenType,
-            updateAt: new Date(),
-            createAt: new Date(),
+            updateAt: currentDate,
+            createAt: currentDate,
             createBy: Meteor.user().username
           });
         };

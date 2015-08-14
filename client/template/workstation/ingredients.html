@@ -16,6 +16,8 @@
             <li><a href="/workstation/recipe">Recipes</a></li>
             <li><a href="/workstation/menuCalendar">Menu</a></li>
             <li><a href="/workstation/userManagement">User Management</a></li>
+            <li><a href="/workstation/zipcodes"> Zipcodes</a></li>
+
 
           </ul>
           <ul class="nav navbar-nav navbar-right">
@@ -58,6 +60,8 @@
     </div>
   </div>
 </section>
+
+
 </template>
 
 <template name="ingredientData">
@@ -77,9 +81,14 @@
 <template name="addIngredients">
 <!-- Button trigger modal -->
 
-<button type="button" class="btn btn-lg" data-toggle="modal" id="addIngredientButtom" data-target="#addIngredientForm">
-  Add Ingredient
-</button>
+<div class="addIngredientSession">
+  <button type="button" class="btn btn-lg" data-toggle="modal" id="addIngredientButtom" data-target="#addIngredientForm">
+    Add Ingredient
+  </button>
+</div>
+
+
+
 
 <!-- Modal -->
 <div class="modal fade" id="addIngredientForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">

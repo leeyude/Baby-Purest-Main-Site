@@ -65,5 +65,8 @@ if (Meteor.isClient) {
     this.render('userManagement');
   });
 
+  Router.route('/workstation/zipcodes', function () {
+    this.render('zipcodes');
+  });
 
 }

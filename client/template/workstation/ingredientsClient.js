@@ -50,8 +50,6 @@ if(Meteor.isClient){
       var nutrition= template.find(".nutrition").value;
       var allergenType= template.find(".allergenType").value;
       var ingreId= Session.get('editingIngredient');
-      console.log("press save");
-      console.log(ingreId);
       Meteor.call('saveIngredients', itemName, itemType, stage, nowUsing, nutrition, allergenType, ingreId);
     },
 
